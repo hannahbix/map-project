@@ -8,6 +8,10 @@
 	color: black;
 	}
 
+.image-small{
+	display: none;
+}
+
 h1{
 	font-weight: bold;
 	text-align: center;
@@ -44,3 +48,15 @@ footer{
 	font-family: sans-serif;
 	text-align: left;
 }
+
+@media only screen and (max-width: 600px) {
+	
+	.image{
+		display: none;
+	}
+
+	.image-small{
+		width: 50%;
+		margin-left: 5%;
+		margin-right: 5%;	
+	}
