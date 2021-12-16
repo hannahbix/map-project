@@ -8,10 +8,6 @@
 	color: black;
 	}
 
-.image-small{
-	display: none;
-}
-
 h1{
 	font-weight: bold;
 	text-align: center;
@@ -53,10 +49,4 @@ footer{
 	
 	.image{
 		display: none;
-	}
-
-	.image-small{
-		width: 50%;
-		margin-left: 5%;
-		margin-right: 5%;	
 	}
